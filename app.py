@@ -55,7 +55,7 @@ bah_with, bah_without = load_bah()
 @st.cache_data
 def load_data():
     dataset = pd.read_csv("dashboard_dataset.csv")
-    geo     = gpd.read_file("zip_codes.geojson")
+    geo     = gpd.read_file("san_diego_zips.geojson")
 
     dataset["zip_code"]    = dataset["zip_code"].astype(str).str.zfill(5)
     geo["ZCTA5CE20"]       = geo["ZCTA5CE20"].astype(str).str.zfill(5)
