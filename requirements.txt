@@ -4,3 +4,4 @@ geopandas
 folium
 streamlit-folium
 shapely
+openpyxl 
