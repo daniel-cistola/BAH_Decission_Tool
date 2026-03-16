@@ -5,3 +5,4 @@ folium
 streamlit-folium
 shapely
 openpyxl 
+scikit-learn 
