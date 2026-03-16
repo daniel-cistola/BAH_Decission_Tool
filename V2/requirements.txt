@@ -6,3 +6,4 @@ streamlit-folium
 shapely
 openpyxl 
 scikit-learn 
+reportlab 
